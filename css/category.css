@@ -1,0 +1,286 @@
+.advertisement {
+    background-color: var(--main-bg-color);
+    padding-top: 60px;
+}
+
+.container {}
+
+.advertisement__inner {
+    /* position: relative; */
+    padding: 40px 40px 60px 40px;
+    display: flex;
+    border: 1px solid #1b1917;
+    border-radius: 20px;
+    /* max-width: 1360px; */
+    height: 399px;
+    background: linear-gradient(148deg, #000 0%, #141414 100%);
+}
+
+.advertisement__call {}
+
+.advertisement__title {
+    position: relative;
+    font-weight: 500;
+    font-size: 52px;
+    line-height: 110%;
+    letter-spacing: 0.04em;
+    margin-bottom: 40px;
+}
+
+.advertisement__title::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, #ffa500 0%, #070707 100%);
+}
+
+
+
+.advertisement__descr {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    margin-bottom: 40px;
+}
+
+.advertisement__button {}
+
+.button {}
+
+.trigger-custom-popup {}
+
+.advertisement__images {
+    position: relative;
+}
+
+.advertisement__img {
+    max-width: 100%;
+    height: auto;
+}
+
+.advertisement__images:before {
+    content: '';
+    position: absolute;
+    top: 80px;
+    left: 45%;
+    width: 100px;
+    height: 200px;
+    background: radial-gradient(50% 50% at 50% 50%, rgb(255, 165, 0) 0%, rgb(153, 99, 0) 100%);
+    filter: blur(104px);
+    pointer-events: none;
+    z-index: -1;
+}
+
+
+
+
+
+
+.products {}
+
+.container {}
+
+.products__inner {}
+
+.products__title {}
+
+.products__catalog {
+    display: flex;
+    /* gap: 10px; */
+}
+
+.products__sidebar {
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.products__sidebar-title {
+    border-bottom: 1px solid #181716;
+    padding: 10px 0px;
+    /* width: 335px; */
+    height: 42px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    opacity: .4;
+}
+
+
+.products__sidebar-list {
+    padding: 24px;
+    max-width: 335px;
+    height: 523px;
+    background: #181716a3;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.products__sidebar-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    text-align: start;
+    border-radius: 8px;
+    color: inherit;
+    transition: background 0.3s ease, color 0.3s ease;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    opacity: 0.8;
+}
+
+
+
+.products__sidebar-link:hover {
+    display: flex;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: var(--color-orange);
+    opacity: 1;
+    color: var(--main-bg-color);
+}
+
+/* Скрытие секций */
+.hidden {
+    display: none !important;
+}
+
+
+.products__grid {}
+
+.catalog__grid {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.products__item {}
+
+.products__articul {}
+
+.products__name {}
+
+.product__images {}
+
+.products__img {}
+
+.products__buttons {}
+
+.products__btn-cart {}
+
+.products__btn-one-click {}
+
+.products__price {}
+
+.products__button-catalog {}
+
+.products__button {}
+
+.button {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Общий контейнер селекта */
+.products__sidebar-select {
+    display: none;
+    position: relative;
+    width: 100%;
+    background-color: #1b1917; /* Цвет фона */
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 40px;
+}
+
+/* Текущий выбранный элемент */
+.products__sidebar-current {
+    padding: 12px 15px;
+    background-color: #1b1917;
+    color: #ffffff;
+    /* Цвет текста */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+
+/* SVG стрелка */
+.products__arrow svg {
+    width: 10px;
+    height: 6px;
+    transition: transform 0.3s ease;
+}
+
+/* Поворот стрелки при открытии */
+.products__sidebar-select.open .products__arrow svg {
+    transform: rotate(180deg);
+}
+
+/* Список опций */
+.products__sidebar-options {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #1b1917;
+    /* Цвет фона */
+    border-radius: 8px;
+    overflow: hidden;
+    z-index: 1000;
+    list-style: none;
+    margin: 5px 0 0;
+    padding: 0;
+}
+
+/* Каждая опция */
+.products__sidebar-options .products__sidebar-link {
+    display: flex;
+    padding: 10px 15px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Ховер на опции */
+.products__sidebar-options .products__sidebar-link:hover {
+    background-color: var(--color-orange);
+    /* Оранжевый фон */
+    color: #1c1c1c;
+    /* Черный текст */
+}
+
+/* Показ списка */
+.products__sidebar-select.open .products__sidebar-options {
+    display: block;
+}

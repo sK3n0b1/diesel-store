@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css"/>
+    <title>Главная</title>
+</head>
+
+<body class="body">
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="header__inner-left">
+                        <a href="/" class="header__logotype">
+                            <img src="./images/header_img/header_logo.svg" alt="Логотип компании" class="header__logo">
+                        </a>
+                        <div class="header__nav">
+                            <ul class="header__nav-list">
+                                <li class="header__nav-item dropdown">
+                                    <a data-toggle="dropdown" href="#"
+                                        class="header__nav-link dropdown__toggle">Категории</a>
+                                    <ul class="dropdown__menu">
+                                        <li class="dropdown__list">
+                                            <a href="/category.html" class="dropdown__link">Акции и скидки</a>
+                                        </li>
+                                        <li class="dropdown__list">
+                                            <a href="/product.html" class="dropdown__link">Форсунки новые</a>
+                                        </li>
+                                        <li class="dropdown__list">
+                                            <a href="#" class="dropdown__link">Ремкомплекты форсунок</a>
+                                        </li>
+                                        <li class="dropdown__list">
+                                            <a href="#" class="dropdown__link">Форсунки восстановленные</a>
+                                        </li>
+                                        <li class="dropdown__list">
+                                            <a href="#" class="dropdown__link">Распылители</a>
+                                        </li>
+                                        <li class="dropdown__list">
+                                            <a href="#" class="dropdown__link">Расходные материалы</a>
+                                        </li>
+                                        <li class="dropdown__list">
+                                            <a href="#" class="dropdown__link">Клапана, мультипликаторы, актуаторы</a>
+                                        </li>
+                                        <li class="dropdown__list">
+                                            <a href="#" class="dropdown__link">ТНВД</a>
+                                        </li>
+                                        <li class="dropdown__list">
+                                            <a href="#" class="dropdown__link">Запчасти для ТНВД</a>
+                                        </li>
+                                        <li class="dropdown__list">
+                                            <a href="#" class="dropdown__link">Регуляторы, датчики, аварийные
+                                                клапана</a>
+                                        </li>
+                                        <li class="dropdown__list">
+                                            <a href="#" class="dropdown__link">Разное</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header__nav-item dropdown">
+                                    <a data-toggle="dropdown" href="#"
+                                        class="header__nav-link dropdown__toggle">Покупателю</a>
+                                    <ul class="dropdown__menu">
+                                        <li class="dropdown__list">
+                                            <a href="/delivery.html" class="dropdown__link">Оплата и доставка</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Покупателю</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Покупателю</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a href="#" class="header__nav-link">Контакты</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="header__inner-rigth">
+                        <a href="/cart.html" class="headear__shopping">
+                            <div class="header__cart">
+                                <img src="./images/header_img/header_shop.svg" alt="Иконка корзины"
+                                    class="header__cart-icon">
+                            </div>
+                            <div class="header__quantity">
+                                <p class="header__quantity-item"> В корзине <span class="quantity-num">16</span>
+                                    товара(ов)</p>
+                            </div>
+                        </a>
+                        <a href="" class="header__search">
+                            <img src="./images/header_img/header_logo-search.svg" alt="" class="header__search-logo">
+                        </a>
+                        <div class="burger-menu">
+                            <a class="burger-icon" href="#">
+                                <span></span>
+                            </a>
+                            <div class="burger-menu__nav">
+                                <ul class="burger-menu__list">
+                                    <li class="burger-menu__item">
+                                        <div class="burger-menu__item-flex">
+                                            <a id="burger-toggle-1" href="#" class="burger-menu__link">
+                                                Акции и скидки
+                                            </a>
+                                            <div class="burger-menu__item-flex-icon">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 14.5L14.5 1.5M14.5 1.5V13.98M14.5 1.5H2.02"
+                                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="burger-menu__item">
+                                        <div class="burger-menu__item-flex">
+                                            <a id="burger-toggle-2" href="#" class="burger-menu__link">
+                                                Форсунки новые
+                                            </a>
+                                            <div class="burger-menu__item-flex-icon">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 14.5L14.5 1.5M14.5 1.5V13.98M14.5 1.5H2.02"
+                                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="burger-menu__item">
+                                        <div class="burger-menu__item-flex">
+                                            <a href="#" class="burger-menu__link">Ремкомплекты форсунок</a>
+                                            <div class="burger-menu__item-flex-icon">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 14.5L14.5 1.5M14.5 1.5V13.98M14.5 1.5H2.02"
+                                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="burger-menu__item">
+                                        <div class="burger-menu__item-flex">
+                                            <a href="#" class="burger-menu__link">Форсунки восстановленные</a>
+                                            <div class="burger-menu__item-flex-icon">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 14.5L14.5 1.5M14.5 1.5V13.98M14.5 1.5H2.02"
+                                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="burger-menu__item">
+                                        <div class="burger-menu__item-flex">
+                                            <a href="#" class="burger-menu__link">Распылители</a>
+                                            <div class="burger-menu__item-flex-icon">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 14.5L14.5 1.5M14.5 1.5V13.98M14.5 1.5H2.02"
+                                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="burger-menu__item">
+                                        <div class="burger-menu__item-flex">
+                                            <a href="#" class="burger-menu__link">Расходные материалы</a>
+                                            <div class="burger-menu__item-flex-icon">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 14.5L14.5 1.5M14.5 1.5V13.98M14.5 1.5H2.02"
+                                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="burger-menu__item">
+                                        <div class="burger-menu__item-flex">
+                                            <a href="#" class="burger-menu__link">Клапана, мультипликаторы,
+                                                актуаторы</a>
+                                            <div class="burger-menu__item-flex-icon">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 14.5L14.5 1.5M14.5 1.5V13.98M14.5 1.5H2.02"
+                                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="burger-menu__item">
+                                        <div class="burger-menu__item-flex">
+                                            <a href="#" class="burger-menu__link">ТНВД</a>
+                                            <div class="burger-menu__item-flex-icon">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 14.5L14.5 1.5M14.5 1.5V13.98M14.5 1.5H2.02"
+                                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="burger-menu__item">
+                                        <div class="burger-menu__item-flex">
+                                            <a href="#" class="burger-menu__link">Запчасти для ТНВД</a>
+                                            <div class="burger-menu__item-flex-icon">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 14.5L14.5 1.5M14.5 1.5V13.98M14.5 1.5H2.02"
+                                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="burger-menu__item">
+                                        <div class="burger-menu__item-flex">
+                                            <a href="#" class="burger-menu__link">Регуляторы, датчики, аварийные
+                                                клапана</a>
+                                            <div class="burger-menu__item-flex-icon">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 14.5L14.5 1.5M14.5 1.5V13.98M14.5 1.5H2.02"
+                                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="burger-menu__item">
+                                        <div class="burger-menu__item-flex">
+                                            <a href="#" class="burger-menu__link">Разное</a>
+                                            <div class="burger-menu__item-flex-icon">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 14.5L14.5 1.5M14.5 1.5V13.98M14.5 1.5H2.02"
+                                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="contact">
+                <div class="container">
+                    <div class="contact__inner">
+                        <div class="contact__call">
+                            <h1 class="contact__title">Интернет-магазин <br> топливных форсунок</h1>
+                            <p class="contact__descr">Поберегите нервы, посетив хороший автосервис. <br>
+                                Для быстрой записи заполните форму:</p>
+                            <a href="#" class="contact__button button trigger-custom-popup">Связаться</a>
+                        </div>
+                        <div class="contact__images">
+                            <img width="571" height="571" src="./images/main_img/contact_img/main_img_bg.png"
+                                alt="Мастер" class="contact__img">
+                        </div>
+                        <div class="contact__promotion">
+                            <a href="#" class="contact__link">
+                                <img class="contact__link-img"
+                                    src="./images/main_img/contact_img/main_img_arrow-rigth.svg" alt="">
+                                Здесь можно написать второе преимущество/акцию
+                            </a>
+                            <a href="#" class="contact__link">
+                                <img class="contact__link-img"
+                                    src="./images/main_img/contact_img/main_img_arrow-rigth.svg" alt="">
+                                Здесь можно написать второе преимущество/акцию
+                            </a>
+                            <a href="#" class="contact__link">
+                                <img class="contact__link-img"
+                                    src="./images/main_img/contact_img/main_img_arrow-rigth.svg" alt="">
+                                Здесь можно написать второе преимущество/акцию
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="catalog">
+                <div class="container">
+                    <div class="search__inner">
+                        <input class="contact__search-container__input" type="text"
+                            placeholder="Введите артикул или название товара">
+                        <button class="contact__search-button" type="submit">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"
+                                fill="currentColor">
+                                <path
+                                    d="M10 2a8 8 0 015.29 13.71l4 4a1 1 0 01-1.42 1.42l-4-4A8 8 0 1110 2zm0 2a6 6 0 100 12A6 6 0 0010 4z" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="catalog__wrapper">
+                        <h2 class="catalog__title">Категории товаров</h2>
+                        <div class="catalog__inner">
+                            <a href="" class="catalog__item item-1">
+                                <div class="catalog__item-left">
+                                    <div class="catalog__item-top">
+                                        <h3 class="catalog__item-title">Акции и скидки</h3>
+                                        <p class="catalog__item-descr">39 товаров</p>
+                                    </div>
+                                    <div class="catalog__item-bottom">
+                                        <span class="catalog__item-span">Перейти</span>
+                                    </div>
+                                </div>
+                                <div class="catalog__item-rigth">
+                                    <img src="./images/main_img/catalog_img/catalog_img-1.png" alt=""
+                                        class="catalog__item-img">
+                                </div>
+                            </a>
+                            <a href="" class="catalog__item">
+                                <div class="catalog__item-left">
+                                    <div class="catalog__item-top">
+                                        <h3 class="catalog__item-title">Форсунки новые</h3>
+                                        <p class="catalog__item-descr">39 товаров</p>
+                                    </div>
+                                    <div class="catalog__item-bottom">
+                                        <span class="catalog__item-span">Перейти</span>
+                                    </div>
+                                </div>
+                                <div class="catalog__item-rigth">
+                                    <img src="./images/main_img/catalog_img/catalog_img-2.png" alt=""
+                                        class="catalog__item-img">
+                                </div>
+                            </a>
+                            <a href="" class="catalog__item">
+                                <div class="catalog__item-left">
+                                    <div class="catalog__item-top">
+                                        <h3 class="catalog__item-title">Ремкомплекты форсунок</h3>
+                                        <p class="catalog__item-descr">39 товаров</p>
+                                    </div>
+                                    <div class="catalog__item-bottom">
+                                        <span class="catalog__item-span">Перейти</span>
+                                    </div>
+                                </div>
+                                <div class="catalog__item-rigth">
+                                    <img src="./images/main_img/catalog_img/catalog_img-3.png" alt=""
+                                        class="catalog__item-img">
+                                </div>
+                            </a>
+                            <a href="" class="catalog__item">
+                                <div class="catalog__item-left">
+                                    <div class="catalog__item-top">
+                                        <h3 class="catalog__item-title">Форсунки восстановленные</h3>
+                                        <p class="catalog__item-descr">39 товаров</p>
+                                    </div>
+                                    <div class="catalog__item-bottom">
+                                        <span class="catalog__item-span">Перейти</span>
+                                    </div>
+                                </div>
+                                <div class="catalog__item-rigth">
+                                    <img src="./images/main_img/catalog_img/catalog_img-4.png" alt=""
+                                        class="catalog__item-img">
+                                </div>
+                            </a>
+                            <a href="" class="catalog__item">
+                                <div class="catalog__item-left">
+                                    <div class="catalog__item-top">
+                                        <h3 class="catalog__item-title">Распылители</h3>
+                                        <p class="catalog__item-descr">39 товаров</p>
+                                    </div>
+                                    <div class="catalog__item-bottom">
+                                        <span class="catalog__item-span">Перейти</span>
+                                    </div>
+                                </div>
+                                <div class="catalog__item-rigth">
+                                    <img src="./images/main_img/catalog_img/catalog_img-5.png" alt=""
+                                        class="catalog__item-img">
+                                </div>
+                            </a>
+                            <a href="" class="catalog__item">
+                                <div class="catalog__item-left">
+                                    <div class="catalog__item-top">
+                                        <h3 class="catalog__item-title">Расходные материалы</h3>
+                                        <p class="catalog__item-descr">39 товаров</p>
+                                    </div>
+                                    <div class="catalog__item-bottom">
+                                        <span class="catalog__item-span">Перейти</span>
+                                    </div>
+                                </div>
+                                <div class="catalog__item-rigth">
+                                    <img src="./images/main_img/catalog_img/catalog_img-6.png" alt=""
+                                        class="catalog__item-img">
+                                </div>
+                            </a>
+                            <a href="" class="catalog__item">
+                                <div class="catalog__item-left">
+                                    <div class="catalog__item-top">
+                                        <h3 class="catalog__item-title">Клапана, мультипликаторы, актуаторы</h3>
+                                        <p class="catalog__item-descr">39 товаров</p>
+                                    </div>
+                                    <div class="catalog__item-bottom">
+                                        <span class="catalog__item-span">Перейти</span>
+                                    </div>
+                                </div>
+                                <div class="catalog__item-rigth">
+                                    <img src="./images/main_img/catalog_img/catalog_img-7.png" alt=""
+                                        class="catalog__item-img">
+                                </div>
+                            </a>
+                            <a href="" class="catalog__item">
+                                <div class="catalog__item-left">
+                                    <div class="catalog__item-top">
+                                        <h3 class="catalog__item-title">ТНВД</h3>
+                                        <p class="catalog__item-descr">39 товаров</p>
+                                    </div>
+                                    <div class="catalog__item-bottom">
+                                        <span class="catalog__item-span">Перейти</span>
+                                    </div>
+                                </div>
+                                <div class="catalog__item-rigth">
+                                    <img src="./images/main_img/catalog_img/catalog_img-8.png" alt=""
+                                        class="catalog__item-img">
+                                </div>
+                            </a>
+                            <a href="" class="catalog__item">
+                                <div class="catalog__item-left">
+                                    <div class="catalog__item-top">
+                                        <h3 class="catalog__item-title">Запчасти для ТНВД</h3>
+                                        <p class="catalog__item-descr">39 товаров</p>
+                                    </div>
+                                    <div class="catalog__item-bottom">
+                                        <span class="catalog__item-span">Перейти</span>
+                                    </div>
+                                </div>
+                                <div class="catalog__item-rigth">
+                                    <img src="./images/main_img/catalog_img/catalog_img-9.png" alt=""
+                                        class="catalog__item-img">
+                                </div>
+                            </a>
+                            <a href="" class="catalog__item">
+                                <div class="catalog__item-left">
+                                    <div class="catalog__item-top">
+                                        <h3 class="catalog__item-title">Регуляторы, датчики, аварийные клапана</h3>
+                                        <p class="catalog__item-descr">39 товаров</p>
+                                    </div>
+                                    <div class="catalog__item-bottom">
+                                        <span class="catalog__item-span">Перейти</span>
+                                    </div>
+                                </div>
+                                <div class="catalog__item-rigth">
+                                    <img src="./images/main_img/catalog_img/catalog_img-10.png" alt=""
+                                        class="catalog__item-img">
+                                </div>
+                            </a>
+                            <a href="" class="catalog__item">
+                                <div class="catalog__item-left">
+                                    <div class="catalog__item-top">
+                                        <h3 class="catalog__item-title">Разное</h3>
+                                        <p class="catalog__item-descr">39 товаров</p>
+                                    </div>
+                                    <div class="catalog__item-bottom">
+                                        <span class="catalog__item-span">Перейти</span>
+                                    </div>
+                                </div>
+                                <div class="catalog__item-rigth">
+                                    <img src="./images/main_img/catalog_img/catalog_img-11.png" alt=""
+                                        class="catalog__item-img">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="products">
+                <div class="container">
+                    <div class="products__inner">
+                        <h2 class="products__title">Популярные товары</h2>
+                        <div class="products__grid">
+                            <div class="products__item">
+                                <h4 class="products__articul">Арт.: F00RJ01052</h4>
+                                <h3 class="products__name">Клапан F00RJ01052 форсунки Bosch 0445120028/069 (аналог)
+                                    добавлю место для 4 и 5 строки на всякий сл-й</h3>
+                                <div class="product__images">
+                                    <img class="products__img" src="./images/main_img/products_img/product_img-1.png"
+                                        alt="">
+                                </div>
+                                <div class="products__buttons">
+                                    <a href="#" class="products__btn-cart">В корзину</a>
+                                    <a href="#" class="products__btn-one-click">Купить в 1 клик</a>
+                                </div>
+                                <span class="products__price">115 500 ₽ / шт.</span>
+                            </div>
+                            <div class="products__item">
+                                <h4 class="products__articul">Арт.: F00RJ01052</h4>
+                                <h3 class="products__name">Клапан F00RJ01052 форсунки Bosch 0445120028/069 (аналог)
+                                    добавлю место для 4 и 5 строки на всякий сл-й</h3>
+                                <div class="product__images">
+                                    <img class="products__img" src="./images/main_img/products_img/product_img-1.png"
+                                        alt="">
+                                </div>
+                                <div class="products__buttons">
+                                    <a href="#" class="products__btn-cart">В корзину</a>
+                                    <a href="#" class="products__btn-one-click">Купить в 1 клик</a>
+                                </div>
+                                <span class="products__price">115 500 ₽ / шт.</span>
+                            </div>
+                            <div class="products__item">
+                                <h4 class="products__articul">Арт.: F00RJ01052</h4>
+                                <h3 class="products__name">Клапан F00RJ01052 форсунки Bosch 0445120028/069 (аналог)
+                                    добавлю место для 4 и 5 строки на всякий сл-й</h3>
+                                <div class="product__images">
+                                    <img class="products__img" src="./images/main_img/products_img/product_img-1.png"
+                                        alt="">
+                                </div>
+                                <div class="products__buttons">
+                                    <a href="#" class="products__btn-cart">В корзину</a>
+                                    <a href="#" class="products__btn-one-click">Купить в 1 клик</a>
+                                </div>
+                                <span class="products__price">115 500 ₽ / шт.</span>
+                            </div>
+                            <div class="products__item">
+                                <h4 class="products__articul">Арт.: F00RJ01052</h4>
+                                <h3 class="products__name">Клапан F00RJ01052 форсунки Bosch 0445120028/069 (аналог)
+                                    добавлю место для 4 и 5 строки на всякий сл-й</h3>
+                                <div class="product__images">
+                                    <img class="products__img" src="./images/main_img/products_img/product_img-1.png"
+                                        alt="">
+                                </div>
+                                <div class="products__buttons">
+                                    <a href="#" class="products__btn-cart">В корзину</a>
+                                    <a href="#" class="products__btn-one-click">Купить в 1 клик</a>
+                                </div>
+                                <span class="products__price">115 500 ₽ / шт.</span>
+                            </div>
+                            <div class="products__item">
+                                <h4 class="products__articul">Арт.: F00RJ01052</h4>
+                                <h3 class="products__name">Клапан F00RJ01052 форсунки Bosch 0445120028/069 (аналог)
+                                    добавлю место для 4 и 5 строки на всякий сл-й</h3>
+                                <div class="product__images">
+                                    <img class="products__img" src="./images/main_img/products_img/product_img-1.png"
+                                        alt="">
+                                </div>
+                                <div class="products__buttons">
+                                    <a href="#" class="products__btn-cart">В корзину</a>
+                                    <a href="#" class="products__btn-one-click">Купить в 1 клик</a>
+                                </div>
+                                <span class="products__price">115 500 ₽ / шт.</span>
+                            </div>
+                            <div class="products__item">
+                                <h4 class="products__articul">Арт.: F00RJ01052</h4>
+                                <h3 class="products__name">Клапан F00RJ01052 форсунки Bosch 0445120028/069 (аналог)
+                                    добавлю место для 4 и 5 строки на всякий сл-й</h3>
+                                <div class="product__images">
+                                    <img class="products__img" src="./images/main_img/products_img/product_img-1.png"
+                                        alt="">
+                                </div>
+                                <div class="products__buttons">
+                                    <a href="#" class="products__btn-cart">В корзину</a>
+                                    <a href="#" class="products__btn-one-click">Купить в 1 клик</a>
+                                </div>
+                                <span class="products__price">115 500 ₽ / шт.</span>
+                            </div>
+                            <div class="products__item">
+                                <h4 class="products__articul">Арт.: F00RJ01052</h4>
+                                <h3 class="products__name">Клапан F00RJ01052 форсунки Bosch 0445120028/069 (аналог)
+                                    добавлю место для 4 и 5 строки на всякий сл-й</h3>
+                                <div class="product__images">
+                                    <img class="products__img" src="./images/main_img/products_img/product_img-1.png"
+                                        alt="">
+                                </div>
+                                <div class="products__buttons">
+                                    <a href="#" class="products__btn-cart">В корзину</a>
+                                    <a href="#" class="products__btn-one-click">Купить в 1 клик</a>
+                                </div>
+                                <span class="products__price">115 500 ₽ / шт.</span>
+                            </div>
+                            <div class="products__item">
+                                <h4 class="products__articul">Арт.: F00RJ01052</h4>
+                                <h3 class="products__name">Клапан F00RJ01052 форсунки Bosch 0445120028/069 (аналог)
+                                    добавлю место для 4 и 5 строки на всякий сл-й</h3>
+                                <div class="product__images">
+                                    <img class="products__img" src="./images/main_img/products_img/product_img-1.png"
+                                        alt="">
+                                </div>
+                                <div class="products__buttons">
+                                    <a href="#" class="products__btn-cart">В корзину</a>
+                                    <a href="#" class="products__btn-one-click">Купить в 1 клик</a>
+                                </div>
+                                <span class="products__price">115 500 ₽ / шт.</span>
+                            </div>
+                        </div>
+                        <div class="products__button-catalog">
+                            <a href="#" class="products__button button">Перейти в каталог</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="garage">
+                <div class="container">
+                    <div class="garage__inner">
+                        <div class="garage__left">
+                            <div class="garage__descr">
+                                <h2 class="garage__title">Мы знаем всё про ремонт <br> дизельных двигателей
+                                    <br> и топливных систем
+                                </h2>
+                                <p class="garage__subtitle">Посетите наш автосервис и подберите необходимые решения.
+                                    <br>
+                                    Текст необходимо будет подредактировать. <br> Скорее всего лучше кратко написать,
+                                    что можно купить
+                                </p>
+                            </div>
+                            <div class="garage__buttons">
+                                <a href="#" class="garage__btn-site button">Перейти на сайт автосервиса</a>
+                                <a href="" class="garage__btn-booking button open-popup">Записаться на прием </a>
+                            </div>
+                        </div>
+                        <div class="garage__rigth">
+                            <div class="garage__images">
+                                <img src="./images/main_img/garage_img/garage_img-bg.png" alt="Мастер"
+                                    class="garage__img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="question">
+                <div class="container">
+                    <div class="question__accordion">
+                        <h4 class="question__title">Часто спрашивают</h4>
+                        <h2 class="question__subtitle">
+                            Часто задаваемые вопросы
+                        </h2>
+                        <div class="question__accordion__inner">
+                            <div class="question__accordion__item">
+                                <h3 class="question__accordion__item-title">
+                                    Несёте ли вы какие-нибудь гарантийные
+                                    обязательства?
+                                </h3>
+                                <p class="question__accordion__item-descr">
+                                    Сложно сказать, почему представители современных
+                                    социальных резервов, превозмогая сложившуюся
+                                    непростую экономическую ситуацию, описаны
+                                    максимально подробно. Принимая во внимание
+                                    показатели успешности, повышение уровня
+                                    гражданского сознания является качественно новой
+                                    ступенью новых предложений. Банальные, но
+                                    неопровержимые выводы, а также сделанные на базе
+                                    интернет-аналитики выводы, инициированные
+                                    исключительно синтетически, ограничены
+                                    исключительно образом мышления.
+                                </p>
+                            </div>
+                            <div class="question__accordion__item">
+                                <h3 class="question__accordion__item-title">
+                                    В какое время вы работаете?
+                                </h3>
+                                <p class="question__accordion__item-descr">
+                                    Сложно сказать, почему представители современных
+                                    социальных резервов, превозмогая сложившуюся
+                                    непростую экономическую ситуацию, описаны
+                                    максимально подробно. Принимая во внимание
+                                    показатели успешности, повышение уровня
+                                    гражданского сознания является качественно новой
+                                    ступенью новых предложений. Банальные, но
+                                    неопровержимые выводы, а также сделанные на базе
+                                    интернет-аналитики выводы, инициированные
+                                    исключительно синтетически, ограничены
+                                    исключительно образом мышления.
+                                </p>
+                            </div>
+                            <div class="question__accordion__item">
+                                <h3 class="question__accordion__item-title">
+                                    Какой-либо вопрос?
+                                </h3>
+                                <p class="question__accordion__item-descr">
+                                    Сложно сказать, почему представители современных
+                                    социальных резервов, превозмогая сложившуюся
+                                    непростую экономическую ситуацию, описаны
+                                    максимально подробно. Принимая во внимание
+                                    показатели успешности, повышение уровня
+                                    гражданского сознания является качественно новой
+                                    ступенью новых предложений. Банальные, но
+                                    неопровержимые выводы, а также сделанные на базе
+                                    интернет-аналитики выводы, инициированные
+                                    исключительно синтетически, ограничены
+                                    исключительно образом мышления.
+                                </p>
+                            </div>
+                            <div class="question__accordion__item">
+                                <h3 class="question__accordion__item-title">
+                                    И здесь еще один какой-либо вопрос?
+                                </h3>
+                                <p class="question__accordion__item-descr">
+                                    Сложно сказать, почему представители современных
+                                    социальных резервов, превозмогая сложившуюся
+                                    непростую экономическую ситуацию, описаны
+                                    максимально подробно. Принимая во внимание
+                                    показатели успешности, повышение уровня
+                                    гражданского сознания является качественно новой
+                                    ступенью новых предложений. Банальные, но
+                                    неопровержимые выводы, а также сделанные на базе
+                                    интернет-аналитики выводы, инициированные
+                                    исключительно синтетически, ограничены
+                                    исключительно образом мышления.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="question-forms">
+                <div class="container">
+                    <div class="question-forms-block">
+                        <div class="question-forms-left">
+                            <div class="question-contact-form">
+                                <h2 class="question-contact-form-title">
+                                    Не нашли ответ на свой вопрос?
+                                </h2>
+                                <p class="question-contact-descr">
+                                    Напишите свой вопрос и оставьте свои контактные
+                                    данные, и наш менеджер свяжется с Вами в течение
+                                    15 минут
+                                </p>
+                                <form action="#" method="post">
+                                    <div class="form-group question__form-group">
+                                        <input type="text" id="name" name="name" placeholder="Ваше имя" required />
+                                    </div>
+                                    <div class="form-group question__form-group">
+                                        <select id="contact-method" name="contact_method" required>
+                                            <option value="" disabled selected>
+                                                Выберите способ связи
+                                            </option>
+                                            <option value="phone">Телефон</option>
+                                            <option value="email">Email</option>
+                                            <option value="social">
+                                                Социальные сети
+                                            </option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group question__form-group">
+                                        <input type="text" id="contact-info" name="contact_info"
+                                            placeholder="Ваш телефон / Ваш никнейм" required />
+                                    </div>
+                                    <div class="form-group question__form-group">
+                                        <textarea id="question" name="question" placeholder="Ваш вопрос" rows="4"
+                                            required></textarea>
+                                    </div>
+                                    <div class="form-group agreement">
+                                        <input type="checkbox" id="agreement" name="agreement" required />
+                                        <label for="agreement">
+                                            Нажимая на кнопку "Отправить запрос", вы
+                                            даёте согласие на передачу и обработку
+                                            персональных данных и соглашаетесь с
+                                            <a href="#" target="_blank">Политикой конфиденциальности</a>.
+                                        </label>
+                                    </div>
+                                    <button type="submit" class="btn-submit">
+                                        Задать вопрос
+                                    </button>
+                                </form>
+                                <div class="contact-options">
+                                    <p>или напишите нам напрямую</p>
+                                    <div class="social-icons">
+                                        <!-- Здесь могут быть иконки социальных сетей -->
+                                        <a href="#" class="social-icon email">
+                                            <img src="./images/main_img/question-form_img/header_social_icon_mail.svg"
+                                                alt="" />
+                                        </a>
+                                        <a href="#" class="social-icon whatsapp">
+                                            <img src="./images/main_img/question-form_img/header_social_icon_whatsapp.svg"
+                                                alt="" />
+                                        </a>
+                                        <a href="#" class="social-icon vk">
+                                            <img src="./images/main_img/question-form_img/header_social_icon_vk.svg"
+                                                alt="" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question-forms-right">
+                            <div class="question-forms-right__image">
+                                <img class="question-forms-right__img"
+                                    src="./images/main_img/question-form_img/question-form_img-1.png" alt="Мастер" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__logo">
+                    <img src="./images/header_img/header_logo.svg" alt="Logotype" class="footer__logo-img" />
+                </div>
+                <div class="footer__block">
+                    <div class="footer__block-left">
+                        <div class="footer__contact">
+                            <p class="footer__info">
+                                Санкт-Петербург, Мебельный проезд д.2 (станции метро
+                                <br />
+                                Старая деревня, Комендантский проспект, Беговая)
+                            </p>
+                            <a href="tel:+78126057077" class="footer__mobile">
+                                <img src="./images/main_img/question-form_img/header_social_icon_phone.svg" alt="Phone"
+                                    class="footer__mobile-icon" />
+                                +7 (812) 604-70-77
+                            </a>
+                            <div class="footer__block-social">
+                                <a href="mailto:info@dieselspot.ru" class="footer__mail">
+                                    <img src="./images/main_img/question-form_img/header_social_icon_mail.svg"
+                                        alt="Mail" class="footer__mail-icon" />
+                                    info@dieselspot.ru
+                                </a>
+                                <a href="https://wa.me/+79522883587" class="footer__whatsapp">
+                                    <img src="./images/main_img/question-form_img/header_social_icon_whatsapp.svg"
+                                        alt="WhatsApp" class="footer__whatsapp-icon" />
+                                    +7 (952) 288-35-87
+                                </a>
+                                <a href="https://vk.com/dieselspot" class="footer__vk">
+                                    <img src="./images/main_img/question-form_img/header_social_icon_vk.svg" alt="VK"
+                                        class="footer__vk-icon" />
+                                    vk.com/dieselspot
+                                </a>
+                                <a href="https://www.instagram.com/diesel_spot" class="footer__instagram">
+                                    <img src="./images/main_img/question-form_img/header_social_icon_instagram.svg"
+                                        alt="Instagram" class="footer__instagram-icon" />
+                                    instagram.com/diesel_spot
+                                </a>
+                                <a href="https://avito.ru/your-profile" class="footer__avito">
+                                    <img src="./images/main_img/question-form_img/header_social_icon_avito.svg"
+                                        alt="Avito" class="footer__avito-icon" />
+                                    DieselSpot (Авито)
+                                </a>
+                            </div>
+                            <a href="#" class="footer__button button trigger-custom-popup">Обратный звонок</a>
+                        </div>
+                        <div class="footer__privacy">
+                            <p class="footer__reserved">
+                                © Diesel Spot | Все права защищены. 2022-2024
+                            </p>
+                            <a href="" class="footer__policy">Политика конфиденциальности</a>
+                        </div>
+                    </div>
+                    <div class="footer__block-rigth">
+                        <div class="footer__map">
+                            <iframe
+                                src="https://yandex.ru/map-widget/v1/?um=constructor%3Adebe66684966d9b72a746d141e9a6b310121682192bf9cb65b980a0d7b7cf41b&amp;source=constructor"
+                                width="100%" height="409" frameborder="0"></iframe>
+                        </div>
+                        <div class="footer__menu">
+                            <ul class="footer__item">
+                                <li class="footer__list">
+                                    <a href="#" class="footer__link">Акции и скидки</a>
+                                </li>
+                                <li class="footer__list">
+                                    <a href="#" class="footer__link">Форсунки новые
+                                    </a>
+                                </li>
+                                <li class="footer__list">
+                                    <a href="#" class="footer__link">Ремкомплекты форсунок
+                                    </a>
+                                </li>
+                                <li class="footer__list">
+                                    <a href="#" class="footer__link">Форсунки восстановленные</a>
+                                </li>
+                            </ul>
+                            <ul class="footer__item">
+                                <li class="footer__list">
+                                    <a href="#" class="footer__link">Распылители</a>
+                                </li>
+                                <li class="footer__list">
+                                    <a href="#" class="footer__link">Расходные материалы</a>
+                                </li>
+                                <li class="footer__list">
+                                    <a href="#" class="footer__link">Клапана, мультипликаторы, актуаторы</a>
+                                </li>
+                                <li class="footer__list">
+                                    <a href="#" class="footer__link">ТНВД</a>
+                                </li>
+                            </ul>
+                            <ul class="footer__item">
+                                <li class="footer__list">
+                                    <a href="#" class="footer__link">Запчасти для ТНВД</a>
+                                </li>
+                                <li class="footer__list">
+                                    <a href="#" class="footer__link">Регуляторы, датчики, аварийные клапана</a>
+                                </li>
+                                <li class="footer__list">
+                                    <a href="#" class="footer__link">Разное</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <div class="custom-overlay-wrapper">
+			<div class="custom-popup-callback">
+				<div class="custom-popup-header">
+					<h2>Обратный звонок</h2>
+					<button class="custom-popup-close" aria-label="Закрыть">&times;</button>
+				</div>
+				<div class="custom-popup-content">
+					<p>Оставьте свои контактные данные, и наш менеджер свяжется с Вами в течение 15 минут</p>
+					<form class="custom-callback-form">
+						<div class="custom-form-group">
+							<input type="text" id="custom-name" name="name" placeholder="Ваше имя" required>
+						</div>
+						<div class="custom-form-group">
+							<input type="tel" id="custom-phone" name="phone" placeholder="Ваш телефон" required>
+						</div>
+						<button type="submit" class="custom-btn-submit">Отправить</button>
+						<div class="privacy-policy unique-privacy-policy">
+							<input type="checkbox" name="agreement" id="agreement" required
+								class="unique-popup-checkbox" />
+							<label for="agreement" class="agreement">
+								Нажимая на кнопку "Отправить запрос", вы даёте
+								согласие на передачу и обработку персональных данных
+								и соглашаетесь с
+								<a href="/policy" target="_blank" class="unique-popup-link">
+									Политикой конфиденциальности </a>.
+							</label>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+        <div class="popup-wrapper unique-popup-wrapper">
+			<div class="popup-overlay unique-popup-overlay">
+				<div class="popup unique-popup">
+					<button class="popup-close unique-popup-close">
+						&times;
+					</button>
+					<h2 class="popup-title unique-popup-title">
+						Запись на услугу
+					</h2>
+					<p class="popup-descr unique-popup-descr">
+						Оставьте свои контактные данные и выберите дату посещения,
+						и наш менеджер свяжется с Вами в течение 15 минут.
+					</p>
+					<form class="popup-form unique-popup-form">
+						<label class="unique-popup-label">
+							<input type="text" name="name" placeholder="Ваше имя" required class="unique-popup-input" />
+						</label>
+						<label class="unique-popup-label date-picker">
+							<span class="unique-popup-span">Выберите дату посещения</span>
+							<input type="date" name="date" required class="unique-popup-input" placeholder="" />
+						</label>
+						<label class="unique-popup-label">
+							<select name="contact_method" required class="unique-popup-select">
+								<option value="">Выберите способ связи</option>
+								<option value="phone">Телефон</option>
+								<option value="telegram">Telegram</option>
+								<option value="email">Email</option>
+							</select>
+						</label>
+						<label class="unique-popup-label">
+							<input type="text" name="contact_info" placeholder="Ваш телефон / Ваш никнейм" required
+								class="unique-popup-input" />
+						</label>
+						<div class="privacy-policy unique-privacy-policy">
+							<input type="checkbox" name="agreement" id="agreement" required
+								class="unique-popup-checkbox" />
+							<label for="agreement" class="agreement">
+								Нажимая на кнопку "Отправить запрос", вы даёте
+								согласие на передачу и обработку персональных данных
+								и соглашаетесь с
+								<a href="/policy" target="_blank" class="unique-popup-link">
+									Политикой конфиденциальности </a>.
+							</label>
+						</div>
+						<button type="submit" class="popup-submit unique-popup-submit">
+							Записаться
+						</button>
+					</form>
+				</div>
+			</div>
+		</div>
+
+
+        <script src="./js/main.js"></script>
+    </div>
+</body>
+
+</html>

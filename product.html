@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Product</title>
+</head>
+
+<body class="body">
+    <div class="wrapper">
+
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="header__inner-left">
+                        <a href="/" class="header__logotype">
+                            <img src="./images/header_img/header_logo.svg" alt="Логотип компании" class="header__logo">
+                        </a>
+                        <div class="header__nav">
+                            <ul class="header__nav-list">
+                                <li class="header__nav-item dropdown">
+                                    <a data-toggle="dropdown" href="#"
+                                        class="header__nav-link dropdown__toggle">Категории</a>
+                                    <ul class="dropdown__menu">
+                                        <li class="dropdown__list">
+                                            <a href="/category.html" class="dropdown__link">Акции и скидки</a>
+                                        </li>
+                                        <li class="dropdown__list">
+                                            <a href="#" class="dropdown__link">Форсунки новые</a>
+                                        </li>
+                                        <li class="dropdown__list">
+                                            <a href="#" class="dropdown__link">Ремкомплекты форсунок</a>
+                                        </li>
+                                        <li class="dropdown__list">
+                                            <a href="#" class="dropdown__link">Форсунки восстановленные</a>
+                                        </li>
+                                        <li class="dropdown__list">
+                                            <a href="#" class="dropdown__link">Распылители</a>
+                                        </li>
+                                        <li class="dropdown__list">
+                                            <a href="#" class="dropdown__link">Расходные материалы</a>
+                                        </li>
+                                        <li class="dropdown__list">
+                                            <a href="#" class="dropdown__link">Клапана, мультипликаторы, актуаторы</a>
+                                        </li>
+                                        <li class="dropdown__list">
+                                            <a href="#" class="dropdown__link">ТНВД</a>
+                                        </li>
+                                        <li class="dropdown__list">
+                                            <a href="#" class="dropdown__link">Запчасти для ТНВД</a>
+                                        </li>
+                                        <li class="dropdown__list">
+                                            <a href="#" class="dropdown__link">Регуляторы, датчики, аварийные
+                                                клапана</a>
+                                        </li>
+                                        <li class="dropdown__list">
+                                            <a href="#" class="dropdown__link">Разное</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header__nav-item dropdown">
+                                    <a data-toggle="dropdown" href="#"
+                                        class="header__nav-link dropdown__toggle">Покупателю</a>
+                                    <ul class="dropdown__menu">
+                                        <li class="dropdown__list">
+                                            <a href="#" class="dropdown__link">Покупателю</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Покупателю</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Покупателю</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a href="#" class="header__nav-link">Контакты</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="header__inner-rigth">
+                        <a href="#" class="headear__shopping">
+                            <div class="header__cart">
+                                <img src="./images/header_img/header_shop.svg" alt="Иконка корзины"
+                                    class="header__cart-icon">
+                            </div>
+                            <div class="header__quantity">
+                                <p class="header__quantity-item"> В корзине <span class="quantity-num">16</span>
+                                    товара(ов)</p>
+                            </div>
+                        </a>
+                        <a href="" class="header__search">
+                            <img src="./images/header_img/header_logo-search.svg" alt="" class="header__search-logo">
+                        </a>
+                        <div class="burger-menu">
+                            <a class="burger-icon" href="#">
+                                <span></span>
+                            </a>
+                            <div class="burger-menu__nav">
+                                <ul class="burger-menu__list">
+                                    <li class="burger-menu__item">
+                                        <div class="burger-menu__item-flex">
+                                            <a id="burger-toggle-1" href="#" class="burger-menu__link">
+                                                Акции и скидки
+                                            </a>
+                                            <div class="burger-menu__item-flex-icon">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 14.5L14.5 1.5M14.5 1.5V13.98M14.5 1.5H2.02"
+                                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <!-- <ul class="burger-menu-dropdown__list">
+                                            <li class="burger-menu__dropdown-item">
+                                                <a href="#" class="burger-menu__dropdown-link">Common Rail</a>
+                                            </li>
+                                            <li class="burger-menu__dropdown-item">
+                                                <a href="#" class="burger-menu__dropdown-link">Насос форсунки</a>
+                                            </li>
+                                            <li class="burger-menu__dropdown-item">
+                                                <a href="#" class="burger-menu__dropdown-link">Пьезо форсунки</a>
+                                            </li>
+                                            <li class="burger-menu__dropdown-item">
+                                                <a href="#" class="burger-menu__dropdown-link">PLD Секции</a>
+                                            </li>
+                                            <li class="burger-menu__dropdown-item">
+                                                <a href="#" class="burger-menu__dropdown-link">Механические</a>
+                                            </li>
+                                        </ul> -->
+                                    </li>
+                                    <li class="burger-menu__item">
+                                        <div class="burger-menu__item-flex">
+                                            <a id="burger-toggle-2" href="#" class="burger-menu__link">
+                                                Форсунки новые
+                                            </a>
+                                            <div class="burger-menu__item-flex-icon">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 14.5L14.5 1.5M14.5 1.5V13.98M14.5 1.5H2.02"
+                                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <!-- <ul class="burger-menu-dropdown__list">
+                                            <li class="burger-menu-dropdown__item">
+                                                <a href="#" class="burger-menu-dropdown__link">Насос форсунки</a>
+                                            </li>
+                                            <li class="burger-menu-dropdown__item">
+                                                <a href="#" class="burger-menu-dropdown__link">Common Rail</a>
+                                            </li>
+                                            <li class="burger-menu-dropdown__item">
+                                                <a href="#" class="burger-menu-dropdown__link">Пьезо форсунки</a>
+                                            </li>
+                                        </ul> -->
+                                    </li>
+                                    <li class="burger-menu__item">
+                                        <div class="burger-menu__item-flex">
+                                            <a href="#" class="burger-menu__link">Ремкомплекты форсунок</a>
+                                            <div class="burger-menu__item-flex-icon">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 14.5L14.5 1.5M14.5 1.5V13.98M14.5 1.5H2.02"
+                                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="burger-menu__item">
+                                        <div class="burger-menu__item-flex">
+                                            <a href="#" class="burger-menu__link">Форсунки восстановленные</a>
+                                            <div class="burger-menu__item-flex-icon">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 14.5L14.5 1.5M14.5 1.5V13.98M14.5 1.5H2.02"
+                                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="burger-menu__item">
+                                        <div class="burger-menu__item-flex">
+                                            <a href="#" class="burger-menu__link">Распылители</a>
+                                            <div class="burger-menu__item-flex-icon">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 14.5L14.5 1.5M14.5 1.5V13.98M14.5 1.5H2.02"
+                                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="burger-menu__item">
+                                        <div class="burger-menu__item-flex">
+                                            <a href="#" class="burger-menu__link">Расходные материалы</a>
+                                            <div class="burger-menu__item-flex-icon">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 14.5L14.5 1.5M14.5 1.5V13.98M14.5 1.5H2.02"
+                                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="burger-menu__item">
+                                        <div class="burger-menu__item-flex">
+                                            <a href="#" class="burger-menu__link">Клапана, мультипликаторы,
+                                                актуаторы</a>
+                                            <div class="burger-menu__item-flex-icon">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 14.5L14.5 1.5M14.5 1.5V13.98M14.5 1.5H2.02"
+                                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="burger-menu__item">
+                                        <div class="burger-menu__item-flex">
+                                            <a href="#" class="burger-menu__link">ТНВД</a>
+                                            <div class="burger-menu__item-flex-icon">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 14.5L14.5 1.5M14.5 1.5V13.98M14.5 1.5H2.02"
+                                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="burger-menu__item">
+                                        <div class="burger-menu__item-flex">
+                                            <a href="#" class="burger-menu__link">Запчасти для ТНВД</a>
+                                            <div class="burger-menu__item-flex-icon">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 14.5L14.5 1.5M14.5 1.5V13.98M14.5 1.5H2.02"
+                                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="burger-menu__item">
+                                        <div class="burger-menu__item-flex">
+                                            <a href="#" class="burger-menu__link">Регуляторы, датчики, аварийные
+                                                клапана</a>
+                                            <div class="burger-menu__item-flex-icon">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 14.5L14.5 1.5M14.5 1.5V13.98M14.5 1.5H2.02"
+                                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="burger-menu__item">
+                                        <div class="burger-menu__item-flex">
+                                            <a href="#" class="burger-menu__link">Разное</a>
+                                            <div class="burger-menu__item-flex-icon">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 14.5L14.5 1.5M14.5 1.5V13.98M14.5 1.5H2.02"
+                                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <main class="main">
+            <section class="component">
+                <div class="container">
+                    <div class="component__inner">
+                        <div class="component-card">
+                            <div class="component-card__header">
+                                <h1 class="component-card__title">Клапан F00RJ01052 форсунки Bosch 0445120028/069
+                                    (аналог)</h1>
+                                <p class="component-card__art">Арт.: F00RJ01052</p>
+                            </div>
+
+                            <div class="component-card__description">
+                                <h2 class="component-card__description-title">Описание</h2>
+                                <p class="component-card__description-content">
+                                    Обозначение в каталогах Bosch: <br>
+                                    <span class="component-card__catalog-numbers">0445110520, 0986435212, 0445110418,
+                                        F00VC45200</span>
+                                </p>
+                                <p class="component-card__application">
+                                    Устанавливались на автомобили: <br />
+                                    <span class="component-card__car-models">с 2006 г.в Fiat Ducato 2.3 Hdi 16v 109 кВт.
+                                        148
+                                        л.с. 2287 см.куб.</span> <br />
+                                    <span class="component-card__car-models">Fiat Ducato, Iveco Daily 2.3 JTD HP</span>
+                                </p>
+                            </div>
+
+                            <div class="component-card__usage">
+                                <h2 class="component-card__usage-title">Применяемость на автомобилях:</h2>
+                                <p class="component-card__usage-content">
+                                    <span class="component-card__car-models">с 2006 г.в Fiat Ducato 2.3 Hdi 16v 109 кВт.
+                                        148
+                                        л.с. 2287 см.куб.</span> <br />
+                                    <span class="component-card__car-models">Fiat Ducato, Iveco Daily 2.3 JTD HP</span>
+                                </p>
+                            </div>
+
+                            <div class="component-card__manufacturer">
+                                <p class="component-card__manufacturer-title">Производитель:</p>
+                                <p class="component-card__manufacturer-name">MARSHALL</p>
+                            </div>
+
+                            <div class="component-card__actions">
+                                <div class="component-card__actions__title">
+                                    Количество
+                                </div>
+                                <div class="component-card__quantity">
+                                    <button class="component-card__quantity-decrease">-</button>
+                                    <input type="number" class="component-card__quantity-input" value="1" />
+                                    <button class="component-card__quantity-increase">+</button>
+                                </div>
+                            </div>
+
+
+                            <div class="component-card__price">
+                                <h2 class="component-card__price__title">Стоимость</h2>
+                                <div class="component-card__price__inner">
+                                    <p class="component-card__price-current">115 500 ₽ / шт.</p>
+                                    <p class="component-card__price-old">126 750 ₽</p>
+                                </div>
+                            </div>
+
+                            <div class="component-card__buttons">
+                                <button class="component-card__add-to-cart">В корзину</button>
+                                <button class="component-card__buy-now">Купить в 1 клик</button>
+                            </div>
+                        </div>
+                        <div class="component__images">
+                            <img class="component__img" src="./images/product_img/products_img-1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="characteristics">
+                <div class="container">
+                    <div class="characteristics__inner">
+                        <h2 class="characteristics__title">Характеристики</h2>
+                        <div class="characteristics__list">
+                            <div class="characteristics__item">
+                                <div class="characteristics__name">Название характеристики</div>
+                                <div class="characteristics__description">Описание</div>
+                            </div>
+                            <div class="characteristics__item">
+                                <div class="characteristics__name">Название характеристики</div>
+                                <div class="characteristics__description">Описание</div>
+                            </div>
+                            <div class="characteristics__item">
+                                <div class="characteristics__name">Название характеристики</div>
+                                <div class="characteristics__description">Описание</div>
+                            </div>
+                            <div class="characteristics__item">
+                                <div class="characteristics__name">Название характеристики</div>
+                                <div class="characteristics__description">Описание</div>
+                            </div>
+                            <div class="characteristics__item">
+                                <div class="characteristics__name">Название характеристики</div>
+                                <div class="characteristics__description">Описание</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="products">
+                <div class="container">
+                    <div class="products__inner products__inner--highlighted products__inner--custom">
+                        <h2 class="products__title products__title--featured">Сопутствующие товары</h2>
+                        <div class="products__grid products__grid--spacious">
+                            <div class="products__item products__item--highlighted">
+                                <h4 class="products__articul products__articul--emphasized">Арт.: F00RJ01052</h4>
+                                <h3 class="products__name products__name--detailed">Клапан F00RJ01052 форсунки Bosch
+                                    0445120028/069 (аналог)
+                                    добавлю место для 4 и 5 строки на всякий сл-й</h3>
+                                <div class="product__images product__images--responsive">
+                                    <img class="products__img products__img--styled"
+                                        src="./images/main_img/products_img/product_img-1.png" alt="">
+                                </div>
+                                <div class="products__buttons products__buttons--grouped">
+                                    <a href="#" class="products__btn-cart products__btn-cart--primary">В корзину</a>
+                                    <a href="#"
+                                        class="products__btn-one-click products__btn-one-click--secondary">Купить в 1
+                                        клик</a>
+                                </div>
+                                <span class="products__price products__price--bold">115 500 ₽ / шт.</span>
+                            </div>
+                            <div class="products__item products__item--highlighted">
+                                <h4 class="products__articul products__articul--emphasized">Арт.: F00RJ01052</h4>
+                                <h3 class="products__name products__name--detailed">Клапан F00RJ01052 форсунки Bosch
+                                    0445120028/069 (аналог)
+                                    добавлю место для 4 и 5 строки на всякий сл-й</h3>
+                                <div class="product__images product__images--responsive">
+                                    <img class="products__img products__img--styled"
+                                        src="./images/main_img/products_img/product_img-1.png" alt="">
+                                </div>
+                                <div class="products__buttons products__buttons--grouped">
+                                    <a href="#" class="products__btn-cart products__btn-cart--primary">В корзину</a>
+                                    <a href="#"
+                                        class="products__btn-one-click products__btn-one-click--secondary">Купить в 1
+                                        клик</a>
+                                </div>
+                                <span class="products__price products__price--bold">115 500 ₽ / шт.</span>
+                            </div>
+                            <div class="products__item products__item--highlighted">
+                                <h4 class="products__articul products__articul--emphasized">Арт.: F00RJ01052</h4>
+                                <h3 class="products__name products__name--detailed">Клапан F00RJ01052 форсунки Bosch
+                                    0445120028/069 (аналог)
+                                    добавлю место для 4 и 5 строки на всякий сл-й</h3>
+                                <div class="product__images product__images--responsive">
+                                    <img class="products__img products__img--styled"
+                                        src="./images/main_img/products_img/product_img-1.png" alt="">
+                                </div>
+                                <div class="products__buttons products__buttons--grouped">
+                                    <a href="#" class="products__btn-cart products__btn-cart--primary">В корзину</a>
+                                    <a href="#"
+                                        class="products__btn-one-click products__btn-one-click--secondary">Купить в 1
+                                        клик</a>
+                                </div>
+                                <span class="products__price products__price--bold">115 500 ₽ / шт.</span>
+                            </div>
+                            <div class="products__item products__item--highlighted">
+                                <h4 class="products__articul products__articul--emphasized">Арт.: F00RJ01052</h4>
+                                <h3 class="products__name products__name--detailed">Клапан F00RJ01052 форсунки Bosch
+                                    0445120028/069 (аналог)
+                                    добавлю место для 4 и 5 строки на всякий сл-й</h3>
+                                <div class="product__images product__images--responsive">
+                                    <img class="products__img products__img--styled"
+                                        src="./images/main_img/products_img/product_img-1.png" alt="">
+                                </div>
+                                <div class="products__buttons products__buttons--grouped">
+                                    <a href="#" class="products__btn-cart products__btn-cart--primary">В корзину</a>
+                                    <a href="#"
+                                        class="products__btn-one-click products__btn-one-click--secondary">Купить в 1
+                                        клик</a>
+                                </div>
+                                <span class="products__price products__price--bold">115 500 ₽ / шт.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="question">
+                <div class="container">
+                    <div class="question__accordion">
+                        <h4 class="question__title">Часто спрашивают</h4>
+                        <h2 class="question__subtitle">
+                            Часто задаваемые вопросы
+                        </h2>
+                        <div class="question__accordion__inner">
+                            <div class="question__accordion__item">
+                                <h3 class="question__accordion__item-title">
+                                    Несёте ли вы какие-нибудь гарантийные
+                                    обязательства?
+                                </h3>
+                                <p class="question__accordion__item-descr">
+                                    Сложно сказать, почему представители современных
+                                    социальных резервов, превозмогая сложившуюся
+                                    непростую экономическую ситуацию, описаны
+                                    максимально подробно. Принимая во внимание
+                                    показатели успешности, повышение уровня
+                                    гражданского сознания является качественно новой
+                                    ступенью новых предложений. Банальные, но
+                                    неопровержимые выводы, а также сделанные на базе
+                                    интернет-аналитики выводы, инициированные
+                                    исключительно синтетически, ограничены
+                                    исключительно образом мышления.
+                                </p>
+                            </div>
+                            <div class="question__accordion__item">
+                                <h3 class="question__accordion__item-title">
+                                    В какое время вы работаете?
+                                </h3>
+                                <p class="question__accordion__item-descr">
+                                    Сложно сказать, почему представители современных
+                                    социальных резервов, превозмогая сложившуюся
+                                    непростую экономическую ситуацию, описаны
+                                    максимально подробно. Принимая во внимание
+                                    показатели успешности, повышение уровня
+                                    гражданского сознания является качественно новой
+                                    ступенью новых предложений. Банальные, но
+                                    неопровержимые выводы, а также сделанные на базе
+                                    интернет-аналитики выводы, инициированные
+                                    исключительно синтетически, ограничены
+                                    исключительно образом мышления.
+                                </p>
+                            </div>
+                            <div class="question__accordion__item">
+                                <h3 class="question__accordion__item-title">
+                                    Какой-либо вопрос?
+                                </h3>
+                                <p class="question__accordion__item-descr">
+                                    Сложно сказать, почему представители современных
+                                    социальных резервов, превозмогая сложившуюся
+                                    непростую экономическую ситуацию, описаны
+                                    максимально подробно. Принимая во внимание
+                                    показатели успешности, повышение уровня
+                                    гражданского сознания является качественно новой
+                                    ступенью новых предложений. Банальные, но
+                                    неопровержимые выводы, а также сделанные на базе
+                                    интернет-аналитики выводы, инициированные
+                                    исключительно синтетически, ограничены
+                                    исключительно образом мышления.
+                                </p>
+                            </div>
+                            <div class="question__accordion__item">
+                                <h3 class="question__accordion__item-title">
+                                    И здесь еще один какой-либо вопрос?
+                                </h3>
+                                <p class="question__accordion__item-descr">
+                                    Сложно сказать, почему представители современных
+                                    социальных резервов, превозмогая сложившуюся
+                                    непростую экономическую ситуацию, описаны
+                                    максимально подробно. Принимая во внимание
+                                    показатели успешности, повышение уровня
+                                    гражданского сознания является качественно новой
+                                    ступенью новых предложений. Банальные, но
+                                    неопровержимые выводы, а также сделанные на базе
+                                    интернет-аналитики выводы, инициированные
+                                    исключительно синтетически, ограничены
+                                    исключительно образом мышления.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="question-forms">
+                <div class="container">
+                    <div class="question-forms-block">
+                        <div class="question-forms-left">
+                            <div class="question-contact-form">
+                                <h2 class="question-contact-form-title">
+                                    Не нашли ответ на свой вопрос?
+                                </h2>
+                                <p class="question-contact-descr">
+                                    Напишите свой вопрос и оставьте свои контактные
+                                    данные, и наш менеджер свяжется с Вами в течение
+                                    15 минут
+                                </p>
+                                <form action="#" method="post">
+                                    <div class="form-group question__form-group">
+                                        <input type="text" id="name" name="name" placeholder="Ваше имя" required />
+                                    </div>
+                                    <div class="form-group question__form-group">
+                                        <select id="contact-method" name="contact_method" required>
+                                            <option value="" disabled selected>
+                                                Выберите способ связи
+                                            </option>
+                                            <option value="phone">Телефон</option>
+                                            <option value="email">Email</option>
+                                            <option value="social">
+                                                Социальные сети
+                                            </option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group question__form-group">
+                                        <input type="text" id="contact-info" name="contact_info"
+                                            placeholder="Ваш телефон / Ваш никнейм" required />
+                                    </div>
+                                    <div class="form-group question__form-group">
+                                        <textarea id="question" name="question" placeholder="Ваш вопрос" rows="4"
+                                            required></textarea>
+                                    </div>
+                                    <div class="form-group agreement">
+                                        <input type="checkbox" id="agreement" name="agreement" required />
+                                        <label for="agreement">
+                                            Нажимая на кнопку "Отправить запрос", вы
+                                            даёте согласие на передачу и обработку
+                                            персональных данных и соглашаетесь с
+                                            <a href="#" target="_blank">Политикой конфиденциальности</a>.
+                                        </label>
+                                    </div>
+                                    <button type="submit" class="btn-submit">
+                                        Задать вопрос
+                                    </button>
+                                </form>
+                                <div class="contact-options">
+                                    <p>или напишите нам напрямую</p>
+                                    <div class="social-icons">
+                                        <!-- Здесь могут быть иконки социальных сетей -->
+                                        <a href="#" class="social-icon email">
+                                            <img src="./images/main_img/question-form_img/header_social_icon_mail.svg"
+                                                alt="" />
+                                        </a>
+                                        <a href="#" class="social-icon whatsapp">
+                                            <img src="./images/main_img/question-form_img/header_social_icon_whatsapp.svg"
+                                                alt="" />
+                                        </a>
+                                        <a href="#" class="social-icon vk">
+                                            <img src="./images/main_img/question-form_img/header_social_icon_vk.svg"
+                                                alt="" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="question-forms-right">
+                            <div class="question-forms-right__image">
+                                <img class="question-forms-right__img"
+                                    src="./images/main_img/question-form_img/question-form_img-1.png" alt="Мастер" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="seo">
+                <div class="container">
+                    <div class="seo__text">
+                        <h2 class="seo__title-h2">
+                            Место для H1 заголовка для SEO-текста
+                        </h2>
+                        <p class="seo__descr__h2">Место для самого текста под SEO Место для самого текста под SEO Место
+                            для самого текста под SEO Место для самого текста под SEO Место для самого текста под SEO
+                            Место для самого текста под SEO Место для самого текста под SEO Место для самого текста под
+                            SEO Место для самого текста под SEO Место для самого текста под SEO Место для самого текста
+                            под SEO Место для самого текста под SEO Место для самого текста под SEO Место для самого
+                            текста под SEO Место для самого текста под SEO Место для самого текста под SEO </p>
+                        <h3 class="seo__title-h3">
+                            H2 заголовок для SEO-текста
+                        </h3>
+                        <p class="seo__descr-h3">
+                            Место для самого текста под SEO Место для самого текста под SEO Место для самого текста под
+                            SEO Место для самого текста под SEO Место для самого текста под SEO Место для самого текста
+                            под SEO Место для самого текста под SEO Место для самого текста под SEO Место для самого
+                            текста под SEO Место для самого текста под SEO Место для самого текста под SEO Место для
+                            самого текста под SEO Место для самого текста под SEO Место для самого текста под SEO Место
+                            для самого текста под SEO Место для самого текста под SEO
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__logo">
+                    <img src="./images/header_img/header_logo.svg" alt="Logotype" class="footer__logo-img" />
+                </div>
+                <div class="footer__block">
+                    <div class="footer__block-left">
+                        <div class="footer__contact">
+                            <p class="footer__info">
+                                Санкт-Петербург, Мебельный проезд д.2 (станции метро
+                                <br />
+                                Старая деревня, Комендантский проспект, Беговая)
+                            </p>
+                            <a href="tel:+78126057077" class="footer__mobile">
+                                <img src="./images/main_img/question-form_img/header_social_icon_phone.svg" alt="Phone"
+                                    class="footer__mobile-icon" />
+                                +7 (812) 604-70-77
+                            </a>
+                            <div class="footer__block-social">
+                                <a href="mailto:info@dieselspot.ru" class="footer__mail">
+                                    <img src="./images/main_img/question-form_img/header_social_icon_mail.svg"
+                                        alt="Mail" class="footer__mail-icon" />
+                                    info@dieselspot.ru
+                                </a>
+                                <a href="https://wa.me/+79522883587" class="footer__whatsapp">
+                                    <img src="./images/main_img/question-form_img/header_social_icon_whatsapp.svg"
+                                        alt="WhatsApp" class="footer__whatsapp-icon" />
+                                    +7 (952) 288-35-87
+                                </a>
+                                <a href="https://vk.com/dieselspot" class="footer__vk">
+                                    <img src="./images/main_img/question-form_img/header_social_icon_vk.svg" alt="VK"
+                                        class="footer__vk-icon" />
+                                    vk.com/dieselspot
+                                </a>
+                                <a href="https://www.instagram.com/diesel_spot" class="footer__instagram">
+                                    <img src="./images/main_img/question-form_img/header_social_icon_instagram.svg"
+                                        alt="Instagram" class="footer__instagram-icon" />
+                                    instagram.com/diesel_spot
+                                </a>
+                                <a href="https://avito.ru/your-profile" class="footer__avito">
+                                    <img src="./images/main_img/question-form_img/header_social_icon_avito.svg"
+                                        alt="Avito" class="footer__avito-icon" />
+                                    DieselSpot (Авито)
+                                </a>
+                            </div>
+                            <a href="#" class="footer__button button trigger-custom-popup">Обратный звонок</a>
+                        </div>
+                        <div class="footer__privacy">
+                            <p class="footer__reserved">
+                                © Diesel Spot | Все права защищены. 2022-2024
+                            </p>
+                            <a href="" class="footer__policy">Политика конфиденциальности</a>
+                        </div>
+                    </div>
+                    <div class="footer__block-rigth">
+                        <div class="footer__map">
+                            <iframe
+                                src="https://yandex.ru/map-widget/v1/?um=constructor%3Adebe66684966d9b72a746d141e9a6b310121682192bf9cb65b980a0d7b7cf41b&amp;source=constructor"
+                                width="100%" height="409" frameborder="0"></iframe>
+                        </div>
+                        <div class="footer__menu">
+                            <ul class="footer__item">
+                                <li class="footer__list">
+                                    <a href="#" class="footer__link">Акции и скидки</a>
+                                </li>
+                                <li class="footer__list">
+                                    <a href="#" class="footer__link">Форсунки новые
+                                    </a>
+                                </li>
+                                <li class="footer__list">
+                                    <a href="#" class="footer__link">Ремкомплекты форсунок
+                                    </a>
+                                </li>
+                                <li class="footer__list">
+                                    <a href="#" class="footer__link">Форсунки восстановленные</a>
+                                </li>
+                            </ul>
+                            <ul class="footer__item">
+                                <li class="footer__list">
+                                    <a href="#" class="footer__link">Распылители</a>
+                                </li>
+                                <li class="footer__list">
+                                    <a href="#" class="footer__link">Расходные материалы</a>
+                                </li>
+                                <li class="footer__list">
+                                    <a href="#" class="footer__link">Клапана, мультипликаторы, актуаторы</a>
+                                </li>
+                                <li class="footer__list">
+                                    <a href="#" class="footer__link">ТНВД</a>
+                                </li>
+                            </ul>
+                            <ul class="footer__item">
+                                <li class="footer__list">
+                                    <a href="#" class="footer__link">Запчасти для ТНВД</a>
+                                </li>
+                                <li class="footer__list">
+                                    <a href="#" class="footer__link">Регуляторы, датчики, аварийные клапана</a>
+                                </li>
+                                <li class="footer__list">
+                                    <a href="#" class="footer__link">Разное</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <script src="./js/main.js"></script>
+    </div>
+</body>
+
+</html>

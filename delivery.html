@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Payment and Delivery</title>
+</head>
+
+<body class="body">
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <div class="header__inner-left">
+                        <a href="/" class="header__logotype">
+                            <img src="./images/header_img/header_logo.svg" alt="Логотип компании" class="header__logo">
+                        </a>
+                        <div class="header__nav">
+                            <ul class="header__nav-list">
+                                <li class="header__nav-item dropdown">
+                                    <a data-toggle="dropdown" href="#"
+                                        class="header__nav-link dropdown__toggle">Категории</a>
+                                    <ul class="dropdown__menu">
+                                        <li class="dropdown__list">
+                                            <a href="/category.html" class="dropdown__link">Акции и скидки</a>
+                                        </li>
+                                        <li class="dropdown__list">
+                                            <a href="/product.html" class="dropdown__link">Форсунки новые</a>
+                                        </li>
+                                        <li class="dropdown__list">
+                                            <a href="#" class="dropdown__link">Ремкомплекты форсунок</a>
+                                        </li>
+                                        <li class="dropdown__list">
+                                            <a href="#" class="dropdown__link">Форсунки восстановленные</a>
+                                        </li>
+                                        <li class="dropdown__list">
+                                            <a href="#" class="dropdown__link">Распылители</a>
+                                        </li>
+                                        <li class="dropdown__list">
+                                            <a href="#" class="dropdown__link">Расходные материалы</a>
+                                        </li>
+                                        <li class="dropdown__list">
+                                            <a href="#" class="dropdown__link">Клапана, мультипликаторы, актуаторы</a>
+                                        </li>
+                                        <li class="dropdown__list">
+                                            <a href="#" class="dropdown__link">ТНВД</a>
+                                        </li>
+                                        <li class="dropdown__list">
+                                            <a href="#" class="dropdown__link">Запчасти для ТНВД</a>
+                                        </li>
+                                        <li class="dropdown__list">
+                                            <a href="#" class="dropdown__link">Регуляторы, датчики, аварийные
+                                                клапана</a>
+                                        </li>
+                                        <li class="dropdown__list">
+                                            <a href="#" class="dropdown__link">Разное</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header__nav-item dropdown">
+                                    <a data-toggle="dropdown" href="#"
+                                        class="header__nav-link dropdown__toggle">Покупателю</a>
+                                    <ul class="dropdown__menu">
+                                        <li class="dropdown__list">
+                                            <a href="/delivery.html" class="dropdown__link">Оплата и доставка/a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Покупателю</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Покупателю</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="header__nav-item">
+                                    <a href="#" class="header__nav-link">Контакты</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="header__inner-rigth">
+                        <a href="/cart.html" class="headear__shopping">
+                            <div class="header__cart">
+                                <img src="./images/header_img/header_shop.svg" alt="Иконка корзины"
+                                    class="header__cart-icon">
+                            </div>
+                            <div class="header__quantity">
+                                <p class="header__quantity-item"> В корзине <span class="quantity-num">16</span>
+                                    товара(ов)</p>
+                            </div>
+                        </a>
+                        <a href="" class="header__search">
+                            <img src="./images/header_img/header_logo-search.svg" alt="" class="header__search-logo">
+                        </a>
+                        <div class="burger-menu">
+                            <a class="burger-icon" href="#">
+                                <span></span>
+                            </a>
+                            <div class="burger-menu__nav">
+                                <ul class="burger-menu__list">
+                                    <li class="burger-menu__item">
+                                        <div class="burger-menu__item-flex">
+                                            <a id="burger-toggle-1" href="#" class="burger-menu__link">
+                                                Акции и скидки
+                                            </a>
+                                            <div class="burger-menu__item-flex-icon">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 14.5L14.5 1.5M14.5 1.5V13.98M14.5 1.5H2.02"
+                                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="burger-menu__item">
+                                        <div class="burger-menu__item-flex">
+                                            <a id="burger-toggle-2" href="#" class="burger-menu__link">
+                                                Форсунки новые
+                                            </a>
+                                            <div class="burger-menu__item-flex-icon">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 14.5L14.5 1.5M14.5 1.5V13.98M14.5 1.5H2.02"
+                                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="burger-menu__item">
+                                        <div class="burger-menu__item-flex">
+                                            <a href="#" class="burger-menu__link">Ремкомплекты форсунок</a>
+                                            <div class="burger-menu__item-flex-icon">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 14.5L14.5 1.5M14.5 1.5V13.98M14.5 1.5H2.02"
+                                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="burger-menu__item">
+                                        <div class="burger-menu__item-flex">
+                                            <a href="#" class="burger-menu__link">Форсунки восстановленные</a>
+                                            <div class="burger-menu__item-flex-icon">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 14.5L14.5 1.5M14.5 1.5V13.98M14.5 1.5H2.02"
+                                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="burger-menu__item">
+                                        <div class="burger-menu__item-flex">
+                                            <a href="#" class="burger-menu__link">Распылители</a>
+                                            <div class="burger-menu__item-flex-icon">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 14.5L14.5 1.5M14.5 1.5V13.98M14.5 1.5H2.02"
+                                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="burger-menu__item">
+                                        <div class="burger-menu__item-flex">
+                                            <a href="#" class="burger-menu__link">Расходные материалы</a>
+                                            <div class="burger-menu__item-flex-icon">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 14.5L14.5 1.5M14.5 1.5V13.98M14.5 1.5H2.02"
+                                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="burger-menu__item">
+                                        <div class="burger-menu__item-flex">
+                                            <a href="#" class="burger-menu__link">Клапана, мультипликаторы,
+                                                актуаторы</a>
+                                            <div class="burger-menu__item-flex-icon">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 14.5L14.5 1.5M14.5 1.5V13.98M14.5 1.5H2.02"
+                                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="burger-menu__item">
+                                        <div class="burger-menu__item-flex">
+                                            <a href="#" class="burger-menu__link">ТНВД</a>
+                                            <div class="burger-menu__item-flex-icon">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 14.5L14.5 1.5M14.5 1.5V13.98M14.5 1.5H2.02"
+                                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="burger-menu__item">
+                                        <div class="burger-menu__item-flex">
+                                            <a href="#" class="burger-menu__link">Запчасти для ТНВД</a>
+                                            <div class="burger-menu__item-flex-icon">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 14.5L14.5 1.5M14.5 1.5V13.98M14.5 1.5H2.02"
+                                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="burger-menu__item">
+                                        <div class="burger-menu__item-flex">
+                                            <a href="#" class="burger-menu__link">Регуляторы, датчики, аварийные
+                                                клапана</a>
+                                            <div class="burger-menu__item-flex-icon">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 14.5L14.5 1.5M14.5 1.5V13.98M14.5 1.5H2.02"
+                                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="burger-menu__item">
+                                        <div class="burger-menu__item-flex">
+                                            <a href="#" class="burger-menu__link">Разное</a>
+                                            <div class="burger-menu__item-flex-icon">
+                                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M1.5 14.5L14.5 1.5M14.5 1.5V13.98M14.5 1.5H2.02"
+                                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                                        stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+
+
+        <main class="main">
+            <section class="delivery">
+                <div class="container">
+                    <div class="delivery__inner">
+                        <h2 class="delivery__title">Оплата и доставка</h2>
+                        <div class="delivery__item">
+                            <p class="delivery__descr">Место для текста Место для текста Место для текста Место для
+                                текста Место для текста Место для текста Место для текста Место для текста Место для
+                                текста Место для текста Место для текста Место для текста Место для текста Место для
+                                текста Место для текста Место для текста Место для текста Место для текста Место для
+                                текста Место для текста
+                            </p>
+                            <h3 class="delivery__seo-title">H2 заголовок для SEO-текста</h3>
+                            <p class="delivery__seo-descr">Место для текста Место для текста Место для текста Место для
+                                текста Место для текста Место для текста Место для текста Место для текста Место для
+                                текста Место для текста Место для текста Место для текста Место для текста Место для
+                                текста Место для текста Место для текста Место для текста Место для текста Место для
+                                текста Место для текста
+                            </p>
+                        </div>
+                        <a href="" class="delivery__button button">Вернуться на сайт</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__logo">
+                    <img src="./images/header_img/header_logo.svg" alt="Logotype" class="footer__logo-img" />
+                </div>
+                <div class="footer__block">
+                    <div class="footer__block-left">
+                        <div class="footer__contact">
+                            <p class="footer__info">
+                                Санкт-Петербург, Мебельный проезд д.2 (станции метро
+                                <br />
+                                Старая деревня, Комендантский проспект, Беговая)
+                            </p>
+                            <a href="tel:+78126057077" class="footer__mobile">
+                                <img src="./images/main_img/question-form_img/header_social_icon_phone.svg" alt="Phone"
+                                    class="footer__mobile-icon" />
+                                +7 (812) 604-70-77
+                            </a>
+                            <div class="footer__block-social">
+                                <a href="mailto:info@dieselspot.ru" class="footer__mail">
+                                    <img src="./images/main_img/question-form_img/header_social_icon_mail.svg"
+                                        alt="Mail" class="footer__mail-icon" />
+                                    info@dieselspot.ru
+                                </a>
+                                <a href="https://wa.me/+79522883587" class="footer__whatsapp">
+                                    <img src="./images/main_img/question-form_img/header_social_icon_whatsapp.svg"
+                                        alt="WhatsApp" class="footer__whatsapp-icon" />
+                                    +7 (952) 288-35-87
+                                </a>
+                                <a href="https://vk.com/dieselspot" class="footer__vk">
+                                    <img src="./images/main_img/question-form_img/header_social_icon_vk.svg" alt="VK"
+                                        class="footer__vk-icon" />
+                                    vk.com/dieselspot
+                                </a>
+                                <a href="https://www.instagram.com/diesel_spot" class="footer__instagram">
+                                    <img src="./images/main_img/question-form_img/header_social_icon_instagram.svg"
+                                        alt="Instagram" class="footer__instagram-icon" />
+                                    instagram.com/diesel_spot
+                                </a>
+                                <a href="https://avito.ru/your-profile" class="footer__avito">
+                                    <img src="./images/main_img/question-form_img/header_social_icon_avito.svg"
+                                        alt="Avito" class="footer__avito-icon" />
+                                    DieselSpot (Авито)
+                                </a>
+                            </div>
+                            <a href="#" class="footer__button button trigger-custom-popup">Обратный звонок</a>
+                        </div>
+                        <div class="footer__privacy">
+                            <p class="footer__reserved">
+                                © Diesel Spot | Все права защищены. 2022-2024
+                            </p>
+                            <a href="" class="footer__policy">Политика конфиденциальности</a>
+                        </div>
+                    </div>
+                    <div class="footer__block-rigth">
+                        <div class="footer__map">
+                            <iframe
+                                src="https://yandex.ru/map-widget/v1/?um=constructor%3Adebe66684966d9b72a746d141e9a6b310121682192bf9cb65b980a0d7b7cf41b&amp;source=constructor"
+                                width="100%" height="409" frameborder="0"></iframe>
+                        </div>
+                        <div class="footer__menu">
+                            <ul class="footer__item">
+                                <li class="footer__list">
+                                    <a href="#" class="footer__link">Акции и скидки</a>
+                                </li>
+                                <li class="footer__list">
+                                    <a href="#" class="footer__link">Форсунки новые
+                                    </a>
+                                </li>
+                                <li class="footer__list">
+                                    <a href="#" class="footer__link">Ремкомплекты форсунок
+                                    </a>
+                                </li>
+                                <li class="footer__list">
+                                    <a href="#" class="footer__link">Форсунки восстановленные</a>
+                                </li>
+                            </ul>
+                            <ul class="footer__item">
+                                <li class="footer__list">
+                                    <a href="#" class="footer__link">Распылители</a>
+                                </li>
+                                <li class="footer__list">
+                                    <a href="#" class="footer__link">Расходные материалы</a>
+                                </li>
+                                <li class="footer__list">
+                                    <a href="#" class="footer__link">Клапана, мультипликаторы, актуаторы</a>
+                                </li>
+                                <li class="footer__list">
+                                    <a href="#" class="footer__link">ТНВД</a>
+                                </li>
+                            </ul>
+                            <ul class="footer__item">
+                                <li class="footer__list">
+                                    <a href="#" class="footer__link">Запчасти для ТНВД</a>
+                                </li>
+                                <li class="footer__list">
+                                    <a href="#" class="footer__link">Регуляторы, датчики, аварийные клапана</a>
+                                </li>
+                                <li class="footer__list">
+                                    <a href="#" class="footer__link">Разное</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <div class="custom-overlay-wrapper">
+            <div class="custom-popup-callback">
+                <div class="custom-popup-header">
+                    <h2>Обратный звонок</h2>
+                    <button class="custom-popup-close" aria-label="Закрыть">&times;</button>
+                </div>
+                <div class="custom-popup-content">
+                    <p>Оставьте свои контактные данные, и наш менеджер свяжется с Вами в течение 15 минут</p>
+                    <form class="custom-callback-form">
+                        <div class="custom-form-group">
+                            <input type="text" id="custom-name" name="name" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="custom-form-group">
+                            <input type="tel" id="custom-phone" name="phone" placeholder="Ваш телефон" required>
+                        </div>
+                        <button type="submit" class="custom-btn-submit">Отправить</button>
+                        <div class="privacy-policy unique-privacy-policy">
+                            <input type="checkbox" name="agreement" id="agreement" required
+                                class="unique-popup-checkbox" />
+                            <label for="agreement" class="agreement">
+                                Нажимая на кнопку "Отправить запрос", вы даёте
+                                согласие на передачу и обработку персональных данных
+                                и соглашаетесь с
+                                <a href="/policy" target="_blank" class="unique-popup-link">
+                                    Политикой конфиденциальности </a>.
+                            </label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup-wrapper unique-popup-wrapper">
+            <div class="popup-overlay unique-popup-overlay">
+                <div class="popup unique-popup">
+                    <button class="popup-close unique-popup-close">
+                        &times;
+                    </button>
+                    <h2 class="popup-title unique-popup-title">
+                        Запись на услугу
+                    </h2>
+                    <p class="popup-descr unique-popup-descr">
+                        Оставьте свои контактные данные и выберите дату посещения,
+                        и наш менеджер свяжется с Вами в течение 15 минут.
+                    </p>
+                    <form class="popup-form unique-popup-form">
+                        <label class="unique-popup-label">
+                            <input type="text" name="name" placeholder="Ваше имя" required class="unique-popup-input" />
+                        </label>
+                        <label class="unique-popup-label date-picker">
+                            <span class="unique-popup-span">Выберите дату посещения</span>
+                            <input type="date" name="date" required class="unique-popup-input" placeholder="" />
+                        </label>
+                        <label class="unique-popup-label">
+                            <select name="contact_method" required class="unique-popup-select">
+                                <option value="">Выберите способ связи</option>
+                                <option value="phone">Телефон</option>
+                                <option value="telegram">Telegram</option>
+                                <option value="email">Email</option>
+                            </select>
+                        </label>
+                        <label class="unique-popup-label">
+                            <input type="text" name="contact_info" placeholder="Ваш телефон / Ваш никнейм" required
+                                class="unique-popup-input" />
+                        </label>
+                        <div class="privacy-policy unique-privacy-policy">
+                            <input type="checkbox" name="agreement" id="agreement" required
+                                class="unique-popup-checkbox" />
+                            <label for="agreement" class="agreement">
+                                Нажимая на кнопку "Отправить запрос", вы даёте
+                                согласие на передачу и обработку персональных данных
+                                и соглашаетесь с
+                                <a href="/policy" target="_blank" class="unique-popup-link">
+                                    Политикой конфиденциальности </a>.
+                            </label>
+                        </div>
+                        <button type="submit" class="popup-submit unique-popup-submit">
+                            Записаться
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="./js/main.js"></script>
+    </div>
+</body>
+
+</html>
